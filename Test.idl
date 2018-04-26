@@ -1,0 +1,10 @@
+module StudentApp //package-create folder called Test
+{
+  struct Student{
+    long grade1;
+    long grade2;
+  };
+  interface StudentInfo{
+    long totalGrade(inout Student stu);
+  };
+};
